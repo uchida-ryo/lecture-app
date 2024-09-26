@@ -6,7 +6,7 @@ class FizzBuzz
 {
     public function convert(int $n): string
     {
-        if ($n % 3 == 0 && $n % 5 == 0) {
+        if ($n % 15 == 0) {
             return "FizzBuzz";
         } elseif ($n % 3 == 0) {
             return "Fizz";
