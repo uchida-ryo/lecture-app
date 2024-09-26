@@ -4,7 +4,7 @@ namespace App;
 
 class FizzBuzz
 {
-    public function convert($n)
+    public function convert(int $n): string
     {
         if ($n % 3 == 0 && $n % 5 == 0) {
             return "FizzBuzz";
